@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;700&display=swap');
+
+:root{
+    --primary:  #f5f5f5;
+    --secondary:  #ffffff;
+    --tertiary:  #5d5d5d;
+    --black: #000000;
+
+    /* Font Size desktop */
+    --header-1:64px;
+    --header-2:48px;
+    --header-3:42px;
+    --header-4:32px;
+
+    
+    --text-medium:18px;
+    --text-regular:16px;
+    --text-light:13px;
+
+    /* Font Weight */
+    --font-weight-bolder: 700;
+    --font-weight-bold: 600;
+    --font-weight-regular: 500;
+    --font-weight-light: 300;
+}
+
+
+/* Navbar Setting */
+
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: var(--font-weight-regular);
+    padding: 48px 0px;
+}
+
+
+.navbar-brand img{
+    padding-right: 16px;
+    width: 80px;
+}
+/* Navbar Link Setup */
+
+a.nav-link{
+    margin-right: 20px;
+    color: var(--tertiary);
+    letter-spacing: 2.5px;
+}
+
+
+a.nav-link.active{
+color:var(--black);
+}
+
+a.nav-link:hover{
+    color:var(--black);
+}
+
+/* Navbar Link button */
+.btn {
+    padding: 15px 25px;
+    border-radius: 6px;
+    font-size: var(--text-regular);
+    font-weight: var(--font-weight-bold);
+}
+
+.btn-primary{
+    background-color: var(--tertiary);
+    color: var(--primary);
+}
+.btn-primary:focus{
+    background-color: var(--tertiary);
+    color: var(--black);
+}
+.btn-primary:hover{
+    background-color: var(--tertiary);
+    color: var(--black);
+}
+
+
+/* Hero Section */
