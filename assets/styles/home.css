@@ -1,0 +1,29 @@
+
+/* Hero Section */
+section.hero{
+    padding: 5rem 0;
+    background-color:var(--primary);
+}
+.text-label,.text-hero-bold,.text-hero-regular{
+    margin: 24px 0;
+}
+
+.text-label{
+    color: var(--tertiary);
+    font-size: var(--text-regular);
+    font-weight: var(--font-weight-regular);
+    line-height: 31px;
+}
+
+.text-hero-bold{
+    color: var(--tertiary);
+    font-size: var(--header-1);
+    font-weight: var(--font-weight-light);
+    line-height: 74px;
+    letter-spacing: -3px;
+}
+.text-hero-regular{
+    color: var(--tertiary);
+    font-weight: var(--font-weight-regular);
+    line-height: 31px;
+}
