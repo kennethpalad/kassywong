@@ -89,3 +89,11 @@ a.nav-link:hover{
     color: var(--primary);
 }
 
+.px-custom{
+    padding: 0px 15% ;
+}
+
+.divider-custom{
+    width: 30%;
+    margin: auto;
+}
