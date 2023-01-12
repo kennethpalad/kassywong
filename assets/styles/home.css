@@ -36,41 +36,22 @@ section.background{
 
 
 /* Testimonial css */
-
-.testimonials{
-
-    height: 100vh;
-}
-
-
-.card{
-
-    border: none;
-    border-radius: 10px;
-    height: 200px;
+.testimonial p {
+    
+    line-height: 19px;
+    font-size: 13px;
+    margin-top: 16px;
+  }
   
-}
-span{
-    color: #db558d;;
-}
-
-.about{
-
-    background-color: #940641;;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border:0;
-
-}
+  .testimonial h5 {
+    color: var(--tertiary);
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 8px;
+  }
 
 
-.about img{
-    margin-top: -68px;
-    border: 5px solid white;
-}
-
-@media(max-width:768px){
-    .card{
-        height: 300px;
-    }
-}
+  
+  .col-md-4 {
+    margin-top: 25px;
+  }
