@@ -6,6 +6,12 @@
 		<title>Home - Kassy Wong</title>
 		<!-- bootstrap css -->
 		<link
+			rel="icon"
+			href="./assets/images/favicon.ico"
+			type="image/x-icon"
+			sizes="16x16"
+		/>
+		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
 			rel="stylesheet"
 			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
@@ -34,12 +40,16 @@
 			type="text/css"
 			href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css"
+		/>
 	</head>
 	<body>
 		<!-- Navbar Section -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-white">
 			<div class="container">
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="./index.html">
 					<img src="./assets/images/CBK-Logo-01.png" alt="cbk logo" />
 				</a>
 				<button
@@ -72,9 +82,7 @@
 				<div class="row">
 					<div class="col-md-6 p-5">
 						<div class="copy">
-							<div class="text-label">
-								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-							</div>
+							<div class="text-label"></div>
 							<div class="text-hero-bold">Kassy Wong</div>
 							<div class="text-hero-regular">
 								Creations By Kassy specializes in creating magical wedding
@@ -83,10 +91,14 @@
 								their most special day
 							</div>
 							<div class="cta">
-								<a href="#" class="btn btn-primary shadow-none"
-									>View Portfolio</a
+								<a
+									href="./what-we-offer.html"
+									class="btn btn-primary btn-primary-active shadow-none"
+									>What We Offer</a
 								>
-								<a href="#" class="btn btn-primary shadow-none ms-3"
+								<a
+									href="./contact-us.html"
+									class="btn btn-primary shadow-none ms-3"
 									>Get in touch</a
 								>
 							</div>
@@ -219,6 +231,59 @@
 			</div>
 		</section>
 
+		<section class="my-5">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12 pt-5">
+						<div class="section-title">PORTFOLIO</div>
+					</div>
+					<div class="col-md-12 mt-5">
+						<hr class="divider-custom" />
+						<div class="text-hero-regular px-custom border-custom py-3">
+							We are proud to have worked on such challenging and fun projects
+							in our years together as a team. You may look at some of the best
+							works from our top services here.
+						</div>
+						<hr class="divider-custom" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="section">
+			<div class="container">
+				<div class="row my-5">
+					<a
+						href="./assets/images/img1.jpg"
+						data-toggle="lightbox"
+						data-gallery="example-gallery"
+						class="col-sm-4"
+					>
+						<img src="./assets/images/img1.jpg" class="img-fluid" />
+					</a>
+					<a
+						href="./assets/images/img2.jpg"
+						data-toggle="lightbox"
+						data-gallery="example-gallery"
+						class="col-sm-4"
+					>
+						<img src="./assets/images/img2.jpg" class="img-fluid" />
+					</a>
+					<a
+						href="./assets/images/img3.jpg"
+						data-toggle="lightbox"
+						data-gallery="example-gallery"
+						class="col-sm-4"
+					>
+						<img src="./assets/images/img3.jpg" class="img-fluid" />
+					</a>
+				</div>
+				<div class="row text-center mb-5">
+					<div class="mx-auto">
+						<a href="./portfolio.html" class="btn btn-primary">View More</a>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!-- Footer -->
 		<footer id="footer">
 			<div class="footer-newsletter">
@@ -246,32 +311,35 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-3 col-md-6 footer-links text-center">
-							<img
-								src="./assets/images/CBK-Logo-01.png"
-								alt="Kluxe Logo"
-								width="220"
-							/>
+							<a href="./index.html"
+								><img
+									src="./assets/images/CBK-Logo-01.png"
+									alt="Kluxe Logo"
+									width="220"
+							/></a>
 						</div>
 						<div class="col-lg-3 col-md-6 footer-links">
 							<h4>Quick Links</h4>
 							<ul>
 								<li>
-									<i class="bx bx-chevron-right"></i> <a href="#">Home</a>
+									<i class="bx bx-chevron-right"></i>
+									<a href="./index.html">Home</a>
 								</li>
 								<li>
 									<i class="bx bx-chevron-right"></i>
-									<a href="#">Who We Are</a>
+									<a href="./who-we-are.html">Who We Are</a>
 								</li>
 								<li>
 									<i class="bx bx-chevron-right"></i>
-									<a href="#">What We Do</a>
-								</li>
-								<li>
-									<i class="bx bx-chevron-right"></i> <a href="#">Portfolio</a>
+									<a href="./what-we-offer.html">What We Offer</a>
 								</li>
 								<li>
 									<i class="bx bx-chevron-right"></i>
-									<a href="#">Contact Us</a>
+									<a href="./portfolio.html">Portfolio</a>
+								</li>
+								<li>
+									<i class="bx bx-chevron-right"></i>
+									<a href="./contact-us.html">Contact Us</a>
 								</li>
 							</ul>
 						</div>
@@ -280,9 +348,16 @@
 							<p>
 								Perth , Western, Australia<br /><br />
 								<strong>Phone:</strong
-								><a href="tel:+61862027000"> +61 8 6202 7000</a><br />
+								><a
+									href="tel:+61862027000"
+									style="text-decoration: none; color: white"
+								>
+									+61 8 6202 7000</a
+								><br />
 								<strong>Email:</strong>
-								<a href="mailto:hello@wdigitalsolutions.com.au"
+								<a
+									href="mailto:hello@wdigitalsolutions.com.au"
+									style="text-decoration: none; color: white"
 									>hello@wdigitalsolutions.com.au</a
 								><br />
 							</p>
@@ -294,12 +369,26 @@
 								them feel their best on their most special day.
 							</p>
 							<div class="social-links mt-3">
-								<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-								<a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-								<a href="#" class="instagram"
+								<a
+									href="https://www.pinterest.ph/creationsbykassy/"
+									class="pinterest"
+									><i class="bx bxl-pinterest"></i
+								></a>
+								<a
+									href="https://www.facebook.com/creationsbykassy"
+									class="facebook"
+									><i class="bx bxl-facebook"></i
+								></a>
+								<a
+									href="https://www.instagram.com/creationsbykassy/"
+									class="instagram"
 									><i class="bx bxl-instagram"></i
 								></a>
-								<a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+								<a
+									href="https://www.linkedin.com/in/creationsbykassy?originalSubdomain=au"
+									class="linkedin"
+									><i class="bx bxl-linkedin"></i
+								></a>
 							</div>
 						</div>
 					</div>
@@ -323,5 +412,6 @@
 			type="text/javascript"
 			src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
 		></script>
+		<script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.2/dist/index.bundle.min.js"></script>
 	</body>
 </html>
