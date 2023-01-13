@@ -1,9 +1,6 @@
 
 /* Hero Section */
-section.background{
-    padding: 5rem 0;
-    background-color:var(--primary);
-}
+
 .text-label,.text-hero-bold,.text-hero-regular{
     margin: 24px 0;
 }
@@ -28,11 +25,6 @@ section.background{
     line-height: 31px;
 }
 
-.section-title{
-    font-size: var(--header-3);
-    font-weight: var(--font-weight-light);
-    line-height: 31px;
-}
 
 
 /* Testimonial css */
