@@ -282,3 +282,10 @@ a.nav-link:hover{
     font-size: 13px;
     color: #fff;
 }
+
+@media (max-width: 1200px) {  
+    a.nav-link{
+font-size: 14px;
+    }
+
+}
